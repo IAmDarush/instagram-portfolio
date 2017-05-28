@@ -123,18 +123,66 @@ h2 {
             background: url("../images/social-sprite@2x.png") no-repeat;
             background-size: 76px 26px;
         }
-
     }
 
-    a:nth-child(1){
+    a:nth-child(1) {
         background: url("../images/facebook.png") no-repeat;
     }
 
-    a:nth-child(2){
+    a:nth-child(2) {
         background: url("../images/twitter.png") no-repeat;
     }
 
-    a:nth-child(3){
+    a:nth-child(3) {
         background: url("../images/instagram.png") no-repeat;
+    }
+}
+
+.instagram-wrap {
+    background: $lightgrey;
+}
+
+.instagram-content {
+    h3 {
+        text-transform: uppercase;
+        letter-spacing: 0.5em;
+        font-size: 12px;
+        font-weight: 700;
+        text-align: center;
+        padding: $padding*5 0;
+        color: darken($lightgrey, 20%);
+    }
+}
+
+.photo-box {
+    margin: 0 0 $margin*3;
+
+    .image-wrap {
+        img {
+            width: 100%;
+        }
+
+        .likes {
+            position: absolute;
+            bottom: 5px;
+            left: 15px;
+            padding: $padding/2;
+            background: $black;
+            background: rgba($black, 0.4);
+            color: $white;
+        }
+    }
+
+    .description {
+        font-family: $sub-font;
+        font-size: 12px;
+        background: $white;
+        color: $mediumgrey;
+        letter-spacing: 1px;
+        padding: $padding*1.5;
+        height: 75px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
     }
 }

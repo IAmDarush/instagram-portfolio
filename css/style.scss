@@ -186,3 +186,66 @@ h2 {
         text-overflow: ellipsis;
     }
 }
+
+footer {
+    background: $white;
+    padding: $padding*3 0;
+    text-align: center;
+    @media screen and (min-width: $screen-lg) {
+        padding: $padding*10 0;
+    }
+
+    h4 {
+        font-size: 36px;
+        text-align: center;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .about-text {
+        padding: 0 $padding*3;
+        @media screen and (min-width: $screen-lg) {
+            width: 650px;
+            margin: 0 auto;
+        }
+    }
+
+    .contact-now-btn {
+        display: inline-block;
+        width: 70%;
+        padding: $padding*2 $padding*5;
+        margin-top: $margin*2;
+        color: $white;
+        background: $grey;
+        font-size: 13px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        text-transform: uppercase;
+        @media screen and (min-width: $screen-md) {
+            width: 60%;
+        }
+        @media screen and (min-width: $screen-lg) {
+            width: 20%;
+            margin-top: $margin*5;
+        }
+
+        &:hover {
+            background: lighten($grey, 5%);
+        }
+    }
+}
+
+.footer-bottom {
+    background: $white;
+    padding: $padding $padding*6;
+    border-top: 2px solid $lightgrey;
+    letter-spacing: 2px;
+    text-align: center;
+    color: $mediumgrey;
+    text-transform: uppercase;
+
+    @media screen and (min-width: $screen-md) {
+        padding: $padding*4 0;
+    }
+}

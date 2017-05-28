@@ -5837,4 +5837,50 @@ header {
         margin: 0;
         width: 100%; } }
 
+.name {
+  font-size: 21px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  color: #FFF; }
+
+.titles {
+  position: absolute;
+  bottom: 40%;
+  width: 100%;
+  text-align: center; }
+  @media screen and (min-width: 1200px) {
+    .titles {
+      bottom: 50%; } }
+
+h1,
+h2 {
+  width: 100%;
+  color: #FFF;
+  margin: 0; }
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.06em;
+  margin-bottom: 10px; }
+  h1 span {
+    display: block; }
+    @media screen and (min-width: 992px) {
+      h1 span {
+        display: inline; } }
+
+h2 {
+  font-size: 16px;
+  width: 70%;
+  margin: 0 auto; }
+  @media screen and (min-width: 1200px) {
+    h2 {
+      width: 100%;
+      margin: 0; } }
+
+.fancy-font {
+  font-family: "Kaushan Script", cursive; }
+
 /*# sourceMappingURL=style.css.map */
